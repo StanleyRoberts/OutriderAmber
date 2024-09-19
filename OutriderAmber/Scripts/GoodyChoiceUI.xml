@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GoodyChoiceUI -->
+<!-- Author: stanr -->
+<!-- DateCreated: 8/4/2024 6:32:37 PM -->
+<Context>
+
+	<Container Style="FullScreenVignetteConsumer"/>
+	<BoxButton ID="ScreenConsumer" Color="0,0,0,0" Size="parent,parent" ConsumeMouseButton="1" ConsumeMouseWheel="1"/>
+
+	<Grid ID="DropShadow" Size="595,250" Anchor="C,C" Offset="0,0" Style="DropShadow2" Color="255,255,255,200">
+		<Grid ID="Window" Size="parent-5,parent+8" Anchor="C,C" Offset="0,0" SizePadding="0,20" Style="EventPopupFrame">
+
+			<Grid Style="EventPopupTitleBar" Size="parent-32,65" Offset="0,17" Anchor="C,T">
+				<Label ID="EventTitle" Style="EventPopupTitle" Offset="0,2" Align="Center" WrapWidth="420" Anchor="C,C" String="LOC_SR_GOODY_CHOICE_NAME"/>
+			</Grid>
+
+			<Container ID="MainContainer" Size="parent-32,570" Offset="0,90" Anchor="C,T">
+				<Stack ID="ImageDescStack" Size="parent,auto" Anchor="C,T" StackGrowth="Down" StackPadding="10">
+					<PullDown ID="Dropdown" Anchor="C,T" Offset="0,20" AutoFlip="1" ScrollThreshold="375" Size="500,24" SpaceForScroll="0" AutoSizePopup="1">
+						<ButtonData>
+							<GridButton Size="194,28" Style="FontNormal14" FontStyle="glow" Color0="208,212,217,255" Color1="16,43,67,100">
+								<GridData Texture="Controls_DropDownControl" StateOffsetIncrement="0,24"	SliceCorner="10,12"	SliceSize="1,1"		SliceTextureSize="45,24" />
+							</GridButton>
+						</ButtonData>
+						<GridData Offset="0,24" Texture="Controls_DropdownPanel" InnerPadding="3,6" SliceCorner="10,10" SliceTextureSize="22,22"/>
+						<ScrollPanelData Anchor="C,C" Vertical="1" Size="parent,parent" AutoScrollBar="1" >
+							<ScrollBar Style="Slider_Blue" Anchor="R,C" AnchorSide="O,I"   />
+						</ScrollPanelData>
+						<StackData StackGrowth="Bottom" Anchor="C,T"/>
+						<InstanceData Name="DropDownEntry">
+							<GridButton ID="Button" Size="536,24" Texture="Controls_ButtonControl" SliceCorner="12,6" SliceTextureSize="45,24"  StateOffsetIncrement="0,24" Style="FontNormal14" FontStyle="glow" Color0="208,212,217,255"	Color1="16,43,67,100"/>
+						</InstanceData>
+					</PullDown>
+				</Stack>
+			</Container>
+
+			<Stack ID="ButtonStack" Anchor="C,B" Offset="0,26" StackPadding="20" StackGrowth="Right">
+				<GridButton ID="OKButton" Style="MainButton" Size="220,40" Anchor="C,T" Offset="0,0" String="LOC_OK" Disabled="1"/>
+			</Stack>
+		</Grid>
+	</Grid>
+</Context>

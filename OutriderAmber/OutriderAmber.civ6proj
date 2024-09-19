@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>OutriderAmber</Name>
+    <Guid>05418856-8e64-4cfb-98d8-91df8d208633</Guid>
+    <ProjectGuid>a2b7eb93-04fb-4da9-a9d6-bfb50ac6feb3</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Amber from Genshin Impact as a Leader for the Mondstadt Civilisation</Teaser>
+    <Description>Adds Amber from Genshin Impact as a Leader for the Mondstadt Civilisation</Description>
+    <Authors>stanr</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>OutriderAmber</AssemblyName>
+    <RootNamespace>OutriderAmber</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="SRAmberMondstadtInit"><File>Generic/Config.sql</File></UpdateDatabase><UpdateText id="SRAmberMondstadtLocalisation"><File>Civilisation/Localisation.sql</File><File>Leader/Localisation.sql</File></UpdateText><UpdateColors id="SRAmberMondstadtColors"><File>Civilisation/Colours.sql</File><File>Leader/Colours.sql</File></UpdateColors><UpdateArt id="SRAmberMondstadtArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="SRAmberMondstadtIcons"><File>Generic/Icons.sql</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SRAmberMondstadtDatabase"><File>Civilisation/Base.sql</File><File>Civilisation/UniqueAbility.sql</File><File>Civilisation/UniqueBuilding.sql</File><File>Civilisation/UniqueUnit.sql</File><File>Civilisation/HistoricMoments.sql</File><File>Leader/Agenda.sql</File><File>Leader/Base.sql</File><File>Leader/Screens.sql</File><File>Leader/UniqueAbility.sql</File><File>Scripts/OutriderCanChooseGoodyBonus.sql</File></UpdateDatabase><UpdateText id="SRAmberMondstadtText"><File>Civilisation/Localisation.sql</File><File>Leader/Localisation.sql</File><File>Scripts/Localisation.sql</File></UpdateText><UpdateColors id="SRAmberMondstadtColors"><File>Civilisation/Colours.sql</File><File>Leader/Colours.sql</File></UpdateColors><UpdateArt id="SRAmberMondstadtArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="SRAmberMondstadtIcons"><File>Generic/Icons.sql</File></UpdateIcons><AddGameplayScripts id="SRAmberMondstadtScript"><File>Scripts/OutriderCanChooseGoodyBonus.lua</File><File>Scripts/OutriderReplacesStartingWarrior.lua</File></AddGameplayScripts><AddUserInterfaces id="SRAmberMondstadtUI"><Properties><Context>InGame</Context></Properties><File>Scripts/GoodyChoiceUI.xml</File></AddUserInterfaces></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="OutriderAmber.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtDef Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Civilisation\Base.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilisation\Colours.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilisation\HistoricMoments.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilisation\Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilisation\UniqueAbility.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilisation\UniqueBuilding.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilisation\UniqueUnit.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Generic\Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Generic\Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Base.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Colours.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Screens.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\UniqueAbility.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\GoodyChoiceUI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\GoodyChoiceUI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\OutriderCanChooseGoodyBonus.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\OutriderCanChooseGoodyBonus.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\OutriderReplacesStartingWarrior.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\AmberAtlas80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_SR_AMBER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_SR_AMBER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FavoniusCathedralAtlas80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SR_AMBER_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SR_AMBER_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SR_AMBER_DIPLO_BG.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SR_AMBER_DIPLO_BG.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SR_AMBER_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SR_AMBER_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MondstadtAtlas80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\OutriderAtlas95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <XLP Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\MondstadtAtlas.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FavoniusCathedralHistoricMoment.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FavoniusCathedralHistoricMoment.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\OutriderHistoricMoment.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\OutriderHistoricMoment.tex">
+      <SubType>Content</SubType>
+    </XLP>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Civilisation\" />
+    <Folder Include="Leader" />
+    <Folder Include="Generic" />
+    <Folder Include="Scripts" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

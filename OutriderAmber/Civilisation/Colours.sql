@@ -1,0 +1,16 @@
+-- Colours
+-- Author: stanr
+-- DateCreated: 7/31/2024 10:13:54 PM
+--------------------------------------------------------------
+
+
+INSERT INTO	Colors
+		(Type,									Color				)
+VALUES	('COLOR_SR_MONDSTADT_A_PRIMARY',		'64,178,164,255'	),
+		('COLOR_SR_MONDSTADT_A_SECONDARY',		'254,254,254,255'	),
+		('COLOR_SR_MONDSTADT_B_PRIMARY',		'187,193,129,255'	),
+		('COLOR_SR_MONDSTADT_B_SECONDARY',		'55,154,216,255'	),
+		('COLOR_SR_MONDSTADT_C_PRIMARY',		'159,101,121,255'	),
+		('COLOR_SR_MONDSTADT_C_SECONDARY',		'202,208,209,255'	),
+		('COLOR_SR_MONDSTADT_D_PRIMARY',		'254,168,111,255'	),
+		('COLOR_SR_MONDSTADT_D_SECONDARY',		'239,235,228,255'	);

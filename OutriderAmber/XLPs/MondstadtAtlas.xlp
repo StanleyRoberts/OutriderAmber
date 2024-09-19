@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="AmberAtlas256"/>
+			<m_ObjectName text="AmberAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas32"/>
+			<m_ObjectName text="AmberAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas45"/>
+			<m_ObjectName text="AmberAtlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas48"/>
+			<m_ObjectName text="AmberAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas50"/>
+			<m_ObjectName text="AmberAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas55"/>
+			<m_ObjectName text="AmberAtlas55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas64"/>
+			<m_ObjectName text="AmberAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AmberAtlas80"/>
+			<m_ObjectName text="AmberAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralAtlas128"/>
+			<m_ObjectName text="FavoniusCathedralAtlas128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralAtlas256"/>
+			<m_ObjectName text="FavoniusCathedralAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralAtlas32"/>
+			<m_ObjectName text="FavoniusCathedralAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralAtlas38"/>
+			<m_ObjectName text="FavoniusCathedralAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralAtlas50"/>
+			<m_ObjectName text="FavoniusCathedralAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralAtlas80"/>
+			<m_ObjectName text="FavoniusCathedralAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusCathedralHistoricMoment"/>
+			<m_ObjectName text="FavoniusCathedralHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SR_AMBER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SR_AMBER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SR_AMBER_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_SR_AMBER_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SR_AMBER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SR_AMBER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas200"/>
+			<m_ObjectName text="MondstadtAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas22"/>
+			<m_ObjectName text="MondstadtAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas256"/>
+			<m_ObjectName text="MondstadtAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas30"/>
+			<m_ObjectName text="MondstadtAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas36"/>
+			<m_ObjectName text="MondstadtAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas44"/>
+			<m_ObjectName text="MondstadtAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas48"/>
+			<m_ObjectName text="MondstadtAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas50"/>
+			<m_ObjectName text="MondstadtAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas64"/>
+			<m_ObjectName text="MondstadtAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MondstadtAtlas80"/>
+			<m_ObjectName text="MondstadtAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas200"/>
+			<m_ObjectName text="OutriderAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas22"/>
+			<m_ObjectName text="OutriderAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas256"/>
+			<m_ObjectName text="OutriderAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas32"/>
+			<m_ObjectName text="OutriderAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas38"/>
+			<m_ObjectName text="OutriderAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas50"/>
+			<m_ObjectName text="OutriderAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas70"/>
+			<m_ObjectName text="OutriderAtlas70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas80"/>
+			<m_ObjectName text="OutriderAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderAtlas95"/>
+			<m_ObjectName text="OutriderAtlas95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="OutriderHistoricMoment"/>
+			<m_ObjectName text="OutriderHistoricMoment"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

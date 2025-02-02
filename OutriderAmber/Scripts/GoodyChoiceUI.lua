@@ -25,7 +25,6 @@ local refTable = {
 }
 
 function Submit()
-	print("OCCGB submit")
 	local goodyHutSubType = nil
 	local modi = GetChoiceModifier()
 	for row in GameInfo.GoodyHutSubTypes() do
@@ -33,7 +32,12 @@ function Submit()
 			goodyHutSubType = row
 		end
 	end
-	ExposedMembers.SRGoodyHut.ApplyGoody(goodyHutSubType, playerID, unit)
+	local params:table = {
+		OnStart = 'SRApplyGoodyHut',
+		goody = goodyHutSubType,
+		unit = unit,
+	}
+	UI.RequestPlayerOperation(Game.GetLocalPlayer(), PlayerOperations.EXECUTE_SCRIPT, params)
 	if UIManager:DequeuePopup(ContextPtr) then
 		UI.PlaySound("UI_Screen_Close");
 	end
@@ -41,7 +45,6 @@ function Submit()
 end
 
 function GetChoiceModifier()
-	print("OCCGB choice")
 	if choice == 'RELIC' then
 		return 'GOODY_CULTURE_GRANT_ONE_RELIC'
 	elseif choice == 'SCOUT' or choice == 'EXPERIENCE' then
@@ -64,8 +67,7 @@ function GetChoiceModifier()
 end
 
 function PopulateDropdown()
-	print("OCCGB populate")
-	Controls.Dropdown:ClearEntries()
+	--Controls.Dropdown:ClearEntries()
 	for i, type in ipairs(refTable) do
 		local e = {}
 		Controls.Dropdown:BuildEntry("DropDownEntry", e)
@@ -83,18 +85,24 @@ function PopulateDropdown()
 end
 
 function Menu(nplayerID, nunit)
-	print("OCCGB menu")
 	playerID = nplayerID
 	unit = nunit
 	choice = nil
 	Controls.OKButton:SetDisabled(true)
 	Controls.Dropdown:GetButton():SetText("")
-	PopulateDropdown()
+	if not (Game.GetLocalPlayer() == nplayerID) then
+		return nil
+	end
 	if not UIManager:IsInPopupQueue(ContextPtr) then
 		UIManager:QueuePopup(ContextPtr, PopupPriority.Medium);
 		UI.PlaySound("UI_Screen_Open");
 	end
 end
 
-ExposedMembers.SRGoodyHut.ChooseBoon = Menu
-Controls.OKButton:RegisterCallback( Mouse.eLClick, Submit )
+function Init(isReload:boolean)
+	ExposedMembers.SRGoodyHut.ChooseBoon = Menu
+	Controls.OKButton:RegisterCallback( Mouse.eLClick, Submit )
+	PopulateDropdown()
+end
+
+ContextPtr:SetInitHandler(Init);

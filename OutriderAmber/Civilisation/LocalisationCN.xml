@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LocalisationCN -->
+<!-- Author: stanr -->
+<!-- DateCreated: 2/12/2025 1:05:23 PM -->
+
+
+<!-- XML because Civ doesn't like Chinese characters in SQL -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_SR_MONDSTADT_NAME" Language="zh_Hans_CN">
+			<Text>蒙德</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SR_MONDSTADT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蒙德, 自由之都</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SR_MONDSTADT_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>蒙德</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SR_WIND_GLIDERS_AND_WINE_NAME" Language="zh_Hans_CN">
+			<Text>风之翼 与 葡萄酒</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SR_WIND_GLIDERS_AND_WINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>非侦察军事单位和支援陆地单位无视来自丘陵的移动惩罚。[NEWLINE]种植园额外 +2 文化值 [ICON_Culture] 以及 +1 宜居度 [ICON_Amenities]。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SR_WIND_GLIDER_NAME" Language="zh_Hans_CN">
+			<Text>风之翼</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SR_WIND_GLIDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视来自丘陵的移动惩罚</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SR_FAVONIUS_CATHEDRAL_NAME" Language="zh_Hans_CN">
+			<Text>西风大教堂</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SR_FAVONIUS_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				西风大教堂，是风神信徒们向巴巴托斯祈祷的宏伟圣堂。[NEWLINE]取代寺庙，解锁后可用信仰值购买使徒和审判官 [ICON_Faith]。[NEWLINE]建成后获得一个遗物 [ICON_GreatWork_Relic] 。 遗物所在城市+50%
+				每回合伟人点数 [ICON_GreatPerson] 。
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SR_OUTRIDER_NAME" Language="zh_Hans_CN">
+			<Text>侦察骑士</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SR_OUTRIDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>侦察骑士是西风骑士团的兵种之一。 取代侦察兵，拥有更强的近战攻击力 [ICON_Strength]，拥有更远的视野，拥有自选部落村庄奖励的能力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SR_OUTRIDER" Language="zh_Hans_CN">
+			<Text>+8 [ICON_Strength] 攻击力。 +1 视野。 可以自选部落村庄的奖励。</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DRAGONSPINE" Language="zh_Hans_CN">
+			<Text>龙脊雪山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAIN" Language="zh_Hans_CN">
+			<Text>明冠山地</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAIN" Language="zh_Hans_CN">
+			<Text>望风山地</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_CIDER_LAKE" Language="zh_Hans_CN">
+			<Text>果酒湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_STARFELL_LAKE" Language="zh_Hans_CN">
+			<Text>星落湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_MUSK_REEF" Language="zh_Hans_CN">
+			<Text>马斯克礁</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_FALCON_COAST" Language="zh_Hans_CN">
+			<Text>鹰翔海滩</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONDSTADT_CITY" Language="zh_Hans_CN">
+			<Text>蒙德城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAWN_WINERY" Language="zh_Hans_CN">
+			<Text>晨曦酒庄</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPRINGVALE" Language="zh_Hans_CN">
+			<Text>清泉镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOLVENDOM" Language="zh_Hans_CN">
+			<Text>奔狼领</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="zh_Hans_CN">
+			<Text>千风神殿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GALESONG_HILL" Language="zh_Hans_CN">
+			<Text>风啸山坡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="zh_Hans_CN">
+			<Text>坠星山谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAPE_OATH" Language="zh_Hans_CN">
+			<Text>誓言岬</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="zh_Hans_CN">
+			<Text>达达乌帕谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="zh_Hans_CN">
+			<Text>明冠峡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STORMTERRORS_LAIR" Language="zh_Hans_CN">
+			<Text>风龙废墟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="zh_Hans_CN">
+			<Text>眠龙谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="zh_Hans_CN">
+			<Text>星荧洞窟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ENTOMBED_CITY" Language="zh_Hans_CN">
+			<Text>雪葬之都</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="zh_Hans_CN">
+			<Text>低语森林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="zh_Hans_CN">
+			<Text>苍风高地</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_ALBEDO" Language="zh_Hans_CN">
+			<Text>阿贝多</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_BENNETT" Language="zh_Hans_CN">
+			<Text>班尼特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_DILUC" Language="zh_Hans_CN">
+			<Text>迪卢克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_KAEYA" Language="zh_Hans_CN">
+			<Text>凯亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_MIKA" Language="zh_Hans_CN">
+			<Text>米卡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_RAZOR" Language="zh_Hans_CN">
+			<Text>雷泽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_VENTI" Language="zh_Hans_CN">
+			<Text>温迪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_AMBER" Language="zh_Hans_CN">
+			<Text>安柏</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_BARBARA" Language="zh_Hans_CN">
+			<Text>芭芭拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_DIONA" Language="zh_Hans_CN">
+			<Text>迪奥娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_EULA" Language="zh_Hans_CN">
+			<Text>优菈</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_FISCHL" Language="zh_Hans_CN">
+			<Text>菲谢尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_JEAN" Language="zh_Hans_CN">
+			<Text>琴</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_KLEE" Language="zh_Hans_CN">
+			<Text>可莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_LISA" Language="zh_Hans_CN">
+			<Text>丽莎</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_MONA" Language="zh_Hans_CN">
+			<Text>莫娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_NOELLE" Language="zh_Hans_CN">
+			<Text>诺艾尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_ROSARIA" Language="zh_Hans_CN">
+			<Text>罗莎莉亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SR_SUCROSE" Language="zh_Hans_CN">
+			<Text>砂糖</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SR_MONDSTADT_LOCATION" Language="zh_Hans_CN">
+			<Text>提瓦特</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SR_MONDSTADT_SIZE" Language="zh_Hans_CN">
+			<Text>3.87 平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SR_MONDSTADT_POPULATION" Language="zh_Hans_CN">
+			<Text>约 1000人</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SR_MONDSTADT_CAPITAL" Language="zh_Hans_CN">
+			<Text>蒙德城</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SR_MONDSTADT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>一座位于提瓦特东北部的自由之都。 从群山和开阔的平原中，无忧无虑的微风吹拂而来的蒲公英香 —— 这是风神巴巴托斯的礼物 —— 蒙德城被果酒湖包围，坐落在湖中央岛屿。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SR_MONDSTADT_UU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>侦察骑士，是安柏的祖父一手建立并率领的，西风骑士团骑士兵种分支之一。 侦察骑士接受了安柏祖父的训练，学会了他的射箭招式和使用风之翼的技巧，并以其技能而闻名。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

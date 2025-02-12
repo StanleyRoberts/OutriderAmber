@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LocalisationCN -->
+<!-- Author: stanr -->
+<!-- DateCreated: 2/12/2025 1:12:33 PM -->
+
+
+<!-- XML because Civ doesn't like Chinese characters in SQL -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_SR_AMBER_NAME" Language="zh_Hans_CN">
+			<Text>安柏</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SR_MISSING_PERSON_POSTER_NAME" Language="zh_Hans_CN">
+			<Text>寻人启事</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SR_MISSING_PERSON_POSTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>招募伟人时[ICON_GreatPerson]所需要花费的金币 [ICON_Gold] 或信仰值 [ICON_Faith]减少50%。[NEWLINE]国内贸易路线额外 +2 信仰值 [ICON_Faith] ，每经过一个时代再额外 +2信仰值 [ICON_Faith]。</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SR_AMBER_NAME" Language="zh_Hans_CN">
+			<Text>西风骑士</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SR_AMBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尊重探索的文明。不喜欢交战的文明</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SR_AMBER_REASON_ANY" Language="zh_Hans_CN">
+			<Text>(你很有探险天赋嘛！)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>我还想去更远的世界。我想去看天空的尽头！你也会继续陪着我的，对吧、对吧？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SR_AMBER_REASON_ANY" Language="zh_Hans_CN">
+			<Text>(你正在打仗)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>就算是你，比赛我也不会放水！</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_SR_AMBER" Language="zh_Hans_CN">
+			<Text>
+				侦察骑士安柏! 您对风之翼的使用技巧令人瞠目结舌，连续获得三次蒙德城的飞行冠军的您，对接下来的第四次想必也势在必得吧。作为西风骑士团中冉冉升起的新星，您时刻准备着迎接任何具有挑战性的任务。
+				现在，出发带领蒙德走 向辉煌吧！
+			</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text> 我是西风骑士团侦察骑士，安柏。 向您致敬，陌生而可敬的旅人。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>最近风魔龙经常在蒙德出没，请尽快进入城市。但别担心，我可以保证你的安全。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>没错，休息也很重要！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>走嘛~去大教堂的钟楼上看看，风景超棒的！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>真舒服呀...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>嗯...要是风大点就好了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>哇，这个太好吃了。你真厉害！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>我现在还不太确定自己是否可以信任你！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>来,这个给你，是我亲手缝的「兔兔伯爵·特别定制版」...放心放心，是特别定制版哦，不会爆炸的！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>对了！等我解决了手上的任务，可以帮你在城里贴寻人启事......</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>怎么可能！啊，呃......对不起。作为西风骑士，我可能不应该这么说。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>狩猎我也很擅长哦！怎么样，想不想看看我的身手？还是...要来个狩猎比赛？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>哇！像乘着风一样轻快~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>我还没准备好立下誓言，抱歉啦！不是你的问题！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>侦察骑士安柏，前来报到！今后有什么想要帮忙的，尽管说好啦！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>就是这种感觉！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>训练...还不够...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>跟我来吧！认真负责的好骑士必须确保安全护送你们进城。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>我因为爷爷才加入骑士团，因为琴留在了团里。现在，是你陪我见到了蒙德以外的天空。我真的很开心。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>蒙德的天空好像变小了...还是因为我的视野变大了？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>要和我一起去打猎吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>你的军队离得这么近，看起来有些奇怪。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>尽管交给我吧！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>准备就绪！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>侦察骑士，发现目标！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>犯规啦！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>...我有种不祥的感觉！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>交给我吧！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>现在的速度，没有人能追得上了吧！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>来比赛吧！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>跟得上我吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>♪哼哼~哼哼哼~</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>这次我...输了啊...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SR_AMBER_HAPPY" Language="zh_Hans_CN">
+			<Text>真难缠！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SR_AMBER_UNHAPPY" Language="zh_Hans_CN">
+			<Text>还不是时候...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>好痛...这家伙...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>兔兔伯爵，出击！（谴责你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>别小瞧我！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>百发百中！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>说了你跑不过我。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>...我可不会认输！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>没那么难嘛！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>这次我...输了啊...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SR_AMBER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SR_AMBER_ANY}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_SR_AMBER_QUOTE" Language="zh_Hans_CN">
+			<Text>我可是蒙德城的飞行冠军！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_SR_AMBER_TITLE" Language="zh_Hans_CN">
+			<Text>安柏</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_SR_AMBER_SUBTITLE" Language="zh_Hans_CN">
+			<Text>西风骑士团侦察骑士</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>安柏是西风骑士团的侦察骑士。 在侦察骑士已经没落的现在，她独自坚守着这份职责。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>
+				初来乍到的旅客用不着三天，便能与这位热情似火的少女打成一片。 「猎鹿人」的招牌前、果酒湖岸边、风起地大橡树的树顶，都有敏锐机警的红色骑士留下的足迹。任何被她盯上的「可疑人士」，绝对逃不过骑
+				士的认真的询质。
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>从小到大，安柏总是有着无尽的活力与朝气。 每一天，火焰般旺盛的精力令她行动如风，勇敢地解决一切挡在面前的困难； 可有些时候，过剩的精力也会使她在无意中成为麻烦制造者。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>年幼时，安柏因此惹下了不少麻烦。不是掏鸟蛋导致鸟窝倒扣在祖父的关头上，就是点燃草史莱姆的叶子害它们到处乱跑。 她制造的这些小问题，最终都变成了露营猎人们不大不小的麻烦。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>身为罪魁祸首，安柏往往能借助敏捷灵巧的动作第一时间逃离现场，再老练的侦察兵也追不上她。 这位调皮的孙女闯下的祸，最后还是靠祖父默默善后，才将不良影响控制在最小。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>祖父无言的关怀是蒙德土地上最温暖的风，将安柏温柔地包裹。 这份宽容又饱含责任感的爱，她心领神会。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SR_AMBER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>但直到祖父离开骑士团那天，她才真正明白，他肩上所担负的「责任」远不止此。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SR_AMBER_UU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>
+				侦察骑士小队由安柏领导，她也是唯一的成员。 侦察骑士是骑士团的弓箭手和侦察兵。 侦察骑士是由安柏的祖父建立和领导的骑士团部队的一个分支，接受过他的射箭风格和使用风之翼的训练，并以其技能而闻
+				名。 一天，安柏祖父将 骑士纹章与佩剑留在骑士团，没给任何人留下口信，就这样不辞而别。他走后，依赖他的侦察骑士小队失去了主心骨，变得散漫又迟钝。骑士们不是转入其它部门，便是退役归家。侦察骑士小队最终稀疏到无法完成日常巡
+				逻任务的程度。更严重的 是，有人将安柏祖父的离开视为叛逃。刚刚成为侦察骑士的安柏亲历了一切。小队的消亡使他第一次体会到失落与不甘。不再无忧无虑的她心中生出强烈愿望，想要快些长大，快些成为真正的侦察骑士。想要继承祖父的意
+				志，想要茶青祖父的去向 ，她成为了骑士团唯一的侦察骑士。
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -21,8 +21,8 @@
 </Associations>]]></AssociationData>
     <AssemblyName>OutriderAmber</AssemblyName>
     <RootNamespace>OutriderAmber</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="SRAmberMondstadtInit"><File>Generic/Config.sql</File></UpdateDatabase><UpdateText id="SRAmberMondstadtLocalisation"><File>Civilisation/Localisation.sql</File><File>Leader/Localisation.sql</File></UpdateText><UpdateColors id="SRAmberMondstadtColors"><File>Civilisation/Colours.sql</File><File>Leader/Colours.sql</File></UpdateColors><UpdateArt id="SRAmberMondstadtArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="SRAmberMondstadtIcons"><File>Generic/Icons.sql</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SRAmberMondstadtDatabase"><File>Civilisation/Base.sql</File><File>Civilisation/UniqueAbility.sql</File><File>Civilisation/UniqueBuilding.sql</File><File>Civilisation/UniqueUnit.sql</File><File>Civilisation/HistoricMoments.sql</File><File>Leader/Agenda.sql</File><File>Leader/Base.sql</File><File>Leader/Screens.sql</File><File>Leader/UniqueAbility.sql</File><File>Scripts/OutriderCanChooseGoodyBonus.sql</File></UpdateDatabase><UpdateText id="SRAmberMondstadtText"><File>Civilisation/Localisation.sql</File><File>Leader/Localisation.sql</File><File>Scripts/Localisation.sql</File></UpdateText><UpdateColors id="SRAmberMondstadtColors"><File>Civilisation/Colours.sql</File><File>Leader/Colours.sql</File></UpdateColors><UpdateArt id="SRAmberMondstadtArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="SRAmberMondstadtIcons"><File>Generic/Icons.sql</File></UpdateIcons><AddGameplayScripts id="SRAmberMondstadtScript"><File>Scripts/OutriderCanChooseGoodyBonus.lua</File><File>Scripts/OutriderReplacesStartingWarrior.lua</File></AddGameplayScripts><AddUserInterfaces id="SRAmberMondstadtUI"><Properties><Context>InGame</Context></Properties><File>Scripts/GoodyChoiceUI.xml</File></AddUserInterfaces></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="SRAmberMondstadtInit"><File>Generic/Config.sql</File></UpdateDatabase><UpdateText id="SRAmberMondstadtLocalisation"><File>Civilisation/Localisation.sql</File><File>Leader/Localisation.sql</File><File>Civilisation/LocalisationCN.xml</File><File>Leader/LocalisationCN.xml</File></UpdateText><UpdateColors id="SRAmberMondstadtColors"><File>Civilisation/Colours.sql</File><File>Leader/Colours.sql</File></UpdateColors><UpdateArt id="SRAmberMondstadtArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="SRAmberMondstadtIcons"><File>Generic/Icons.sql</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SRAmberMondstadtDatabase"><File>Civilisation/Base.sql</File><File>Civilisation/UniqueAbility.sql</File><File>Civilisation/UniqueBuilding.sql</File><File>Civilisation/UniqueUnit.sql</File><File>Civilisation/HistoricMoments.sql</File><File>Leader/Agenda.sql</File><File>Leader/Base.sql</File><File>Leader/Screens.sql</File><File>Leader/UniqueAbility.sql</File><File>Scripts/OutriderCanChooseGoodyBonus.sql</File></UpdateDatabase><UpdateText id="SRAmberMondstadtText"><File>Civilisation/Localisation.sql</File><File>Leader/Localisation.sql</File><File>Scripts/Localisation.sql</File><File>Civilisation/LocalisationCN.xml</File><File>Leader/LocalisationCN.xml</File><File>Scripts/LocalisationCN.xml</File></UpdateText><UpdateColors id="SRAmberMondstadtColors"><File>Civilisation/Colours.sql</File><File>Leader/Colours.sql</File></UpdateColors><UpdateArt id="SRAmberMondstadtArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="SRAmberMondstadtIcons"><File>Generic/Icons.sql</File></UpdateIcons><AddGameplayScripts id="SRAmberMondstadtScript"><File>Scripts/OutriderCanChooseGoodyBonus.lua</File><File>Scripts/OutriderReplacesStartingWarrior.lua</File></AddGameplayScripts><AddUserInterfaces id="SRAmberMondstadtUI"><Properties><Context>InGame</Context></Properties><File>Scripts/GoodyChoiceUI.xml</File></AddUserInterfaces></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -55,6 +55,9 @@
     <Content Include="Civilisation\Localisation.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Civilisation\LocalisationCN.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Civilisation\UniqueAbility.sql">
       <SubType>Content</SubType>
     </Content>
@@ -82,6 +85,9 @@
     <Content Include="Leader\Localisation.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Leader\LocalisationCN.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Leader\Screens.sql">
       <SubType>Content</SubType>
     </Content>
@@ -95,6 +101,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\LocalisationCN.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\OutriderCanChooseGoodyBonus.lua">

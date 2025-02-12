@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LocalisationCN -->
+<!-- Author: stanr -->
+<!-- DateCreated: 2/12/2025 1:13:19 PM -->
+
+
+<!-- XML because Civ doesn't like Chinese characters in SQL -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_SR_GOODY_CULTURE_NAME" Language="zh_Hans_CN">
+			<Text>获得一个政治鼓舞 [ICON_CivicBoosted]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_SCIENCE_NAME" Language="zh_Hans_CN">
+			<Text>获得一个科技尤里卡 [ICON_TechBoosted]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>获得随机数量金币 [ICON_Gold]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_FAITH_NAME" Language="zh_Hans_CN">
+			<Text>获得随机数量信仰值 [ICON_Faith]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_RELIC_NAME" Language="zh_Hans_CN">
+			<Text>获得遗物 [ICON_GreatWork_Relic]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_SCOUT_NAME" Language="zh_Hans_CN">
+			<Text>获得 {LOC_UNIT_SCOUT_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_HEAL_NAME" Language="zh_Hans_CN">
+			<Text>治疗当前单位</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_POP_NAME" Language="zh_Hans_CN">
+			<Text>+1 人口 [ICON_Citizen]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_BUILDER_NAME" Language="zh_Hans_CN">
+			<Text>获得 {LOC_UNIT_BUILDER_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_TRADER_NAME" Language="zh_Hans_CN">
+			<Text>获得 {LOC_UNIT_TRADER_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_GOVERNOR_NAME" Language="zh_Hans_CN">
+			<Text>+1 总督 [ICON_Governor]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_ENVOY_NAME" Language="zh_Hans_CN">
+			<Text>+1 使者 [ICON_Envoy]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_FAVOR_NAME" Language="zh_Hans_CN">
+			<Text>+20 外交支持 [ICON_Favor]</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_RESOURCES_NAME" Language="zh_Hans_CN">
+			<Text>+20 随机战略资源</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_EXPERIENCE_NAME" Language="zh_Hans_CN">
+			<Text>+20 经验给予当前单位</Text>
+		</Row>
+		<Row Tag="LOC_SR_GOODY_CHOICE_NAME" Language="zh_Hans_CN">
+			<Text>请选择您所想要的村民礼物</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
